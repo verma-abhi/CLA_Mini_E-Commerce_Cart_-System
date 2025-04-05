@@ -16,26 +16,15 @@ A modular and object-oriented command-line shopping cart system written in C++. 
 
 ---
 
-## 📁 Project Structure
-├── main.cpp
-├── Product.cpp / Product.h
-├── CartItem.cpp / CartItem.h
-├── Discount.cpp / Discount.h
-├── ProductCatalog.cpp / ProductCatalog.h
-├── DiscountManager.cpp / DiscountManager.h
-├── ShoppingCart.cpp / ShoppingCart.h
-├── Makefile
-└── README.md
-
 ## Build & Run
-make          # Compile all source files
-./shopping_cart   # Run the application
-make clean    # Remove all compiled objects and binaries
+make         &nbsp;&nbsp;&nbsp;&nbsp; ## Compile all source files   
+./shopping_cart   &nbsp;&nbsp;&nbsp;&nbsp;## Run the application  
+make clean    &nbsp;&nbsp;&nbsp;&nbsp;## Remove all compiled objects and binaries
 
 ## In-App Commands
-add_to_cart         # Add a product to the cart
-remove_from_cart    # Remove a product from the cart
-view_cart           # View current cart contents
-list_discounts      # Show all available discounts
-checkout            # Apply discounts and convert currency
-quit                # Exit the program
+add_to_cart         &nbsp;&nbsp;&nbsp;&nbsp;## Add a product to the cart  
+remove_from_cart    &nbsp;&nbsp;&nbsp;&nbsp;## Remove a product from the cart  
+view_cart           &nbsp;&nbsp;&nbsp;&nbsp; ## View current cart contents  
+list_discounts     &nbsp;&nbsp;&nbsp;&nbsp; ## Show all available discounts  
+checkout          &nbsp;&nbsp;&nbsp;&nbsp;  ## Apply discounts and convert currency  
+quit               &nbsp;&nbsp;&nbsp;&nbsp; ## Exit the program  
